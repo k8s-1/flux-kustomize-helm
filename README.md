@@ -243,7 +243,9 @@ The clusters dir contains the Flux configuration:
     └── infrastructure.yaml
 ```
 
-In **clusters/staging/** dir we have the Flux Kustomization definitions, for example:
+In **clusters/staging/** dir we have the Flux Kustomization definitions
+The Kustomization Custom Resource Definition is the counterpart of Kustomize’s kustomization.yaml config file.
+e.g.:
 
 ```yaml
 apiVersion: kustomize.toolkit.fluxcd.io/v1
