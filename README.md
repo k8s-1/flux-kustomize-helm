@@ -22,13 +22,7 @@ In order to follow the guide you'll need a GitHub account and a
 [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 that can create repositories (check all permissions under `repo`).
 
-Install the Flux CLI on macOS or Linux using Homebrew:
-
-```sh
-brew install fluxcd/tap/flux
-```
-
-Or install the CLI by downloading precompiled binaries using a Bash script:
+Install the Flux CLI
 
 ```sh
 curl -s https://fluxcd.io/install.sh | sudo bash
