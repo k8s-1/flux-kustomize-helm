@@ -2,10 +2,10 @@ name: test
 
 on:
   workflow_dispatch:
-  pull_request:
-  push:
-    branches: [ '*' ]
-    tags-ignore: [ '*' ]
+  # pull_request:
+  # push:
+  #   branches: [ '*' ]
+  #   tags-ignore: [ '*' ]
 
 jobs:
   manifests:
