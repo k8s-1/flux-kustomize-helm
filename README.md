@@ -318,6 +318,8 @@ $ curl -H "Host: podinfo.staging" http://localhost:8080
   "hostname": "podinfo-59489db7b5-lmwpn",
   "version": "6.2.3"
 }
+# alternatively use --resolve to override dns of podinfo.staging to 127.0.0.1
+curl --resolve podinfo.staging:8080:127.0.0.1 http://podinfo.staging:8080
 ```
 
 Bootstrap Flux on production by setting the context and path to your production cluster:
