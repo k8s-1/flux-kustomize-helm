@@ -14,9 +14,5 @@ spec:
       hosts:
         - host: podinfo.staging
           paths:
-            - path: /
-              pathType: ImplementationSpecific
-        - host: podinfo.test
-          paths:
             - path: /kansas
               pathType: ImplementationSpecific
